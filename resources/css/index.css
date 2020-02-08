@@ -1,0 +1,290 @@
+@font-face {
+font-family: "tt";
+src: url("../fonts/TitilliumWeb-Regular.ttf")   
+}
+@font-face {
+font-family: "tt";
+font-weight: bold;    
+src: url("../fonts/TitilliumWeb-Bold.ttf")   
+}
+    
+.bg{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 3em;
+    background-position: center top;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;	
+    height:auto;
+
+}
+.bgsection1{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #fdf8e3;
+    box-shadow: 0 5px 4px -2px #888888;
+}
+.bgsection2{
+    padding-bottom: 5em;
+
+}
+.bgsection3{
+    padding-top:2em;
+    padding-bottom:5em;
+    background-color: #fdf8e3;
+    box-shadow: 0 5px 4px -2px #888888;
+    z-index: -1;
+
+}
+.bgsection4{
+    padding-top: 5em;
+    padding-bottom: 3em;
+
+}
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 1px 2px 8px #888888;
+    z-index:1000;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top:0;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  padding-bottom:2em;
+}
+
+#navbar a.active {
+  background-color: #fff;
+  color: #ac3b61;
+  padding-bottom:2em;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.row::after{
+    background-color: #fdf8e3;
+}
+.navbar_box{
+    padding-top:1em;
+    padding-bottom:1em;
+	width: 30%;
+	float: left;
+	margin-right: 3.0em;
+	overflow: auto;
+    color:#ac3b61;
+    font-family: "tt";
+}
+.nav{
+	padding-top: 5px;
+	font-size: 15px;
+    font-family: "tt";
+	color:#123c69;
+	float: left;
+	width: 25%;
+	height: 28px;
+	text-align: center;
+	opacity:0.7;
+	filter:Alpha(opacity=70); 
+}
+.nav:hover{
+	cursor: pointer;
+	background-color: #58afdb;
+	opacity:1;
+	filter:Alpha(opacity=100); 
+	color: #fff;
+    font-family: "tt";
+	font-weight: bold;
+}
+.logo{
+	width: auto;
+	height: auto;
+	margin-top:0em;
+	margin-left: 2.5em;
+	overflow: auto;
+}
+.myname{
+    padding-top:1em;
+    margin-top: 5em;
+    margin-bottom: 0em;
+	font-size: 40px;
+    font-family: "tt";
+    font-weight: "bold";
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #ac3b61;
+    z-index: 1
+}
+.description{
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 20px;
+    font-family: "tt";
+    font-weight: normal;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #123c69;
+    padding-bottom: 7em;
+    box-shadow: 0 5px 4px -2px #888888;
+
+
+}
+.greetings{
+    margin-top: 4em;
+    margin-bottom: 0em;
+	font-size: 50px;
+    font-family: "tt";
+    font-weight: bold;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #ac3b61;
+}
+.briefdesc{
+    margin-top: 0em;
+    margin-bottom: 0em;
+	font-size: 20px;
+    font-family: "tt";
+    font-weight: normal;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #123c69
+}
+.ref{
+    text-decoration: none;
+    text-decoration-color: "black";
+}
+.arrow{
+    max-height: 40px;
+    max-width: 40px;
+    margin-top: 20%;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 0%;
+}
+.arrow:hover{
+	cursor: pointer;
+    font-family: "tt";
+	font-weight: bold;
+}
+.icon{
+	margin-left: auto;
+    margin-right: auto;
+	width: 50px;
+    height: 50px;
+}
+.icon:hover{
+	cursor: pointer;
+}
+.socialbox{
+    margin-top: 0%;
+    margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+.contactlogo{
+    margin-left: 45%;
+    margin-right: 45%;
+}
+.column {
+  float: left; 
+  width: 33.33%;
+  padding-left: 7em;
+}
+.column_half {
+    float: left;
+    width:50%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: flex;
+}
+.img_captions {
+    color: #123c69;
+    font-family:"tt";
+    text-align: center;
+    padding-right: 6em;
+}
+.title {
+    font-size: 50px;
+    font-family: "tt";
+    font-weight: bold;
+    text-align: center;
+    color: #ac3b61;
+}
+.title_mini {
+    font-size: 40px;
+    font-family: "tt";
+    font-weight: bold;
+    text-align: center;
+    color: #ac3b61;
+}
+.paragraph {
+    font-size: 20px;
+    font-family: "tt";
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #123c69;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.section2{
+    box-shadow: 0 5px 4px -2px #888888;
+    padding-bottom:0.25em;
