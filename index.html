@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chan Jie Lin | Professional Portfolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./resources/css/elastislide.css" />
+    <noscript>
+        <style>
+            .es-carousel ul{
+                display:block;
+            }
+        </style>
+    </noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="resources/js/stickynavbar.js"></script>
+    <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">    
+        <div class="rg-image-wrapper">
+            {{if itemsCount > 1}}
+                <div class="rg-image-nav" style="padding-bottom:3em;">
+                    <a href="#" class="rg-image-nav-prev">Previous Image</a>
+                    <a href="#" class="rg-image-nav-next">Next Image</a>
+                </div>
+            {{/if}}
+            <div class="rg-image"></div>
+            <div class="rg-loading"></div>
+            <div class="rg-caption-wrapper">
+                <div class="rg-caption" style="display:none;">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </script>
+</head>
+
+
+<body>
+
+    <!--                                      NavBar                                              -->
+    <section id="navbar">
+        <div class="navbar_box">
+            <img class="logo" src="resources/img/jielin_txt.png">
+        </div>
+        <div class="navbar_box"></div>
+        <div class="navbar_box" style="float:right;">
+            <a class="active nav" href="#Home ">Home</a>
+            <a class="active nav" href="#About">About</a>
+            <a class="active nav" href="#Portfolio">Portfolio</a>
+            <a class="active nav" href="#Contact">Contact</a>
+        </div>
+        <!-- <div class="navbar_box">
+            <a href="#Home">
+                <div class="nav">Home</div>
+            </a>
+            <a href="#About">
+                <div class="nav">About</div>            
+            </a>
+            <a href="#Portfolio">
+                <div class="nav">Portfolio</div>            
+            </a>
+            <a href="#Contact">
+                <div class="nav">Contact</div>            
+            </a>
+        </div> -->
+    </section>
+
+    <!--                                       Home                                               -->
+    <section>
+        <a name="Home"></a>
+        <div class="bg bgsection1">
+            <h1 class="greetings">Hey there, I am Jie Lin.</h1>
+            
+            <h2 class="briefdesc">Software developer  |  Machine Learning Engineer  |  Maker </h2>
+            <a href="#About">
+               <img class="arrow" src="resources/img/arrow.png">
+            </a>
+        </div>
+    </section>
+    <!--                                      About                                               -->
+    <section class="section2">
+        <a name="About"></a>
+        <div class="bgsection2" style="box-shadow: 0 5px 4px -2px #888888;">
+            <h1 class="myname" style="background-color:#fed8b1;padding-top:3em;" >I am Jie Lin, an undergraduate student from SUTD.</h1>
+            <h2 class="description box-shadow" style="background-color:#fed8b1;padding-top:2em;padding-left:10%;padding-right:10%;">I am currently enrolled in SUTD, in my penultimate year. I am majoring in the Information System Technology and Design (ISTD) Major, to be specialising in Artificial Intelligence. <br></br>I am a self-motivated individual with interest in Software Development, At the same time, I like to think myself as a Maker, pursuing Robotics and Computer Vision as my hobby. I enjoy attending events and hackathons, which allow me to interact with others and gain some insights from them as well as working on self-initiated projects. </h2>
+        </div>
+    </section>
+    <!--                                       Portfolio                                          -->
+    <section class="bgsection3">
+        <a name="Portfolio"></a>
+
+        <h2 class="myname" style="margin-top:0em">Projects</h2>  
+        <br></br>
+        <div class="content">
+            <div id="rg-gallery" class="rg-gallery">
+                <div class="rg-thumbs">
+                    <!-- Elastislide Carousel Thumbnail Viewer -->
+                    <div class="es-carousel-wrapper">
+                        <div class="es-nav">
+                            <span class="es-nav-prev">Previous</span>
+                            <span class="es-nav-next">Next</span>
+                        </div>
+                        <div class="es-carousel">
+                            <ul>
+                                <li><a href=#><img src="resources/img/Noname1.png" data-large="resources/img/Noname1.png" alt="Noname" data-description="An educational tool for students" data-link="sections/noname.html"/></a></li>
+                                <li><a href="#"><img src="resources/img/CutQ1.png" data-large="resources/img/CutQ1.png" alt="CutQ" data-description="A computer vision based self-service checkout kiosk" data-link="sections/cutq.html"/></a></li>
+                                <li><a href="#"><img src="resources/img/PplCounter1.png" data-large="resources/img/PplCounter1.png" alt="People Counter" data-description="People Counter displayed at SUTD Open House" data-link="sections/pplcounter.html"/></a></li>
+                                <li><a href="#"><img src="resources/img/Lino1.png" data-large="resources/img/Lino1.png" alt="Linobot" data-description="Linus robot, an robotics educational tool for undergraduates" data-link="sections/lino.html"/></a></li>
+                                <li><a href="#"><img src="resources/img/Roboclash1.png" data-large="resources/img/Roboclash1.png" alt="Roboclash 2020" data-description="First Intra-school robotics competition" data-link="sections/roboclash.html"/></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- rg-thumbs -->
+            </div><!-- rg-gallery -->
+        </div>
+    </section>
+    
+    <!--                                     Contact                                              -->
+    <footer>
+        <a class="myname" name="Contact"></a>
+        <div class="bg bgsection4">
+            <img class="contactlogo" src="resources/img/jielin_txt.png">
+        </div>
+        <div class="row" style="padding-left:42.5%">
+            <a href="https://github.com/Etzernal" class="btn btn-social-icon btn-github">
+                <span class="fa fa-github" style="background-color:#444;height:100%;width:100%;"></span>
+            </a>
+            <a href="https://www.linkedin.com/in/jielinchan/" class="btn btn-social-icon btn-linkedin">
+                <span class="fa fa-linkedin" style="max-height:50px;max-width:50px;float:center;"></span>
+            </a>
+            <a href="mailto:chanjielin@outlook.com" class="btn btn-email">
+                <span class="fa fa-envelope-o fa-5x" style="height:100%;width:100%;background-color:#444"></span>
+            </a>
+        </div>
+        <div class="bg socialbox"></div>
+    </footer>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="resources/js/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="resources/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="resources/js/jquery.elastislide.js"></script>
+    <script type="text/javascript" src="resources/js/gallery.js"></script>
+</body>
+
+</html>
