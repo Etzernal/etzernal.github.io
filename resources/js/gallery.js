@@ -215,7 +215,7 @@ $(function() {
 					title		= $thumb.data('description');
 					link        = $thumb.data('link');
 				
-				$('<img/>').load( function() {
+				$('<img/>').on('load', function() {
 					
 					$rgGallery.find('div.rg-image').empty().append('<a href=" ' + link + '"><img src="' + largesrc + '"/></a>');
 					
